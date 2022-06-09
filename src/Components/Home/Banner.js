@@ -9,7 +9,7 @@ const Banner = () => {
             <div className="hero-content grid lg:grid-cols-2 sm:grid-cols-1">
                 <div >
                     <div>
-                        <h2 className="text-2xl font-bold ">Welcome!</h2>
+                        <h2 className="text-3xl font-bold ">Hi!</h2>
                         <h4 className="text-2xl font-semibold ">I am</h4>
                         <h1 className="text-4xl font-bold ">MAISHA RAHMAN</h1>
                     </div>
