@@ -29,7 +29,8 @@ const ContactMe = () => {
                 <div>
                     <img alt='' src="https://i.ibb.co/98jD03g/Pink-Illustration-Creative-Portfolio-Presentation.png" /></div>
                 <div>
-                    <h1 className="text-5xl font-bold text-primary">Contact</h1>
+                    <a href="#contact" name="contact"><h1 className="text-5xl font-bold text-primary">Contact</h1></a>
+
                     <form onSubmit={sendEmail}>
                         <input type="text" placeholder="Your name" className="input input-bordered input-primary mt-3 mb-3 w-full max-w-xs" name='name' /><br />
                         <input type="email" placeholder="your email" className="input input-bordered input-primary mb-3 w-full max-w-xs" name='email' /><br />
