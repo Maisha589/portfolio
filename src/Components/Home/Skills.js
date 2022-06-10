@@ -4,13 +4,15 @@ import skills from "../Projects/skills.png";
 
 const Skills = () => {
     return (
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 m-3'>
-            <div className='p-5 flex'>
-                <img src={girl} alt="loading...."></img>
-                <h2 className='font-bold text-3xl p-4 '>My Skills</h2>
-            </div>
-            <div>
-                <img src={skills} alt="" />
+        <div>
+            <h2 className='text-3xl font-bold mt-4 text-primary' >My professional Skills</h2>
+            <div className='grid lg:grid-cols-2 sm:grid-cols-1 m-3 justify-items-center'>
+                <div className='p-5 flex'>
+                    <img src={girl} alt="loading...."></img>
+                </div>
+                <div>
+                    <img src={skills} alt="" />
+                </div>
             </div>
         </div>
     );

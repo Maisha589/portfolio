@@ -9,8 +9,9 @@ import proCover from "../Projects/projects(1).png";
 
 const Projects = () => {
     return (
+
         <div className="grid lg:grid-cols-2 sm:grid-cols-1">
-            <div className='p-2 lg:hidden sm:block'>
+            <div className='p-2 '>
                 <img src={proCover} alt="" />
             </div>
             <div>
@@ -44,9 +45,6 @@ const Projects = () => {
                         <button className='btn btn-primary'>Details</button>
                     </div>
                 </div>
-            </div>
-            <div className='p-2 lg:block sm:hidden'>
-                <img src={proCover} alt="" />
             </div>
         </div>
     );
