@@ -14,7 +14,7 @@ const Projects = () => {
     return (
 
         <div >
-            <a href='#projects' name="projects"><h2 className='text-3xl font-bold mt-4 text-primary' >Some of My works</h2></a>
+            <a href='/' name="projects"><h2 className='text-3xl font-bold mt-4 text-primary' >Some of My works</h2></a>
             <div className=' justify-items-center '>
                 <div className='p-5 items-center w-80 m-auto mt-5'>
                     <img className='w-100' src={girl} alt="loading...."></img>

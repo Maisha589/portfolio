@@ -29,13 +29,13 @@ const ContactMe = () => {
                 <div>
                     <img alt='' src="https://i.ibb.co/98jD03g/Pink-Illustration-Creative-Portfolio-Presentation.png" /></div>
                 <div>
-                    <a href="#contact" name="contact"><h1 className="text-5xl font-bold text-primary">Contact</h1></a>
+                    <a href="/home" name="contact"><h1 className="text-5xl font-bold text-primary">Contact</h1></a>
 
                     <form onSubmit={sendEmail}>
-                        <input type="text" placeholder="Your name" className="input input-bordered input-primary mt-3 mb-3 w-full max-w-xs" name='name' /><br />
-                        <input type="email" placeholder="your email" className="input input-bordered input-primary mb-3 w-full max-w-xs" name='email' /><br />
-                        <input type="text" placeholder="subject" className="input input-bordered input-primary mb-3 w-full max-w-xs" name='subject' /><br />
-                        <input type="text" placeholder="message" className="input input-bordered input-primary mb-3 w-full max-w-xs" name='message' /><br />
+                        <input type="text" placeholder="Your name" className="input input-bordered input-primary mt-3 mb-3 w-full max-w-xs" name='name' required /><br />
+                        <input type="email" placeholder="your email" className="input input-bordered input-primary mb-3 w-full max-w-xs" name='email' required /><br />
+                        <input type="text" placeholder="subject" className="input input-bordered input-primary mb-3 w-full max-w-xs" name='subject' required /><br />
+                        <input type="text" placeholder="message" className="input input-bordered input-primary mb-3 w-full max-w-xs" name='message' required /><br />
                         <input type="submit" value="Send" className="btn btn-primary w-full max-w-xs" />
                     </form>
 
