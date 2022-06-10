@@ -1,11 +1,12 @@
 import React from 'react';
-import bg from "../Footer/wave-haikei (3).png";
 
 const Footer = () => {
     return (
-        <div style={{ background: `url(${bg})` }}>
-
-        </div>
+        <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+            <div>
+                <p>Copyright © 2022 - All right reserved by Maisha Rahman</p>
+            </div>
+        </footer>
     );
 };
 

@@ -1,22 +1,24 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Detail = ({ detail }) => {
     const { name, technology, websiteDetail, website, img1, img2, img3, clientSide, liveSite, serverSite } = detail;
     return (
 
         <div>
-            <div class="hero min-h-screen">
-                <div class="hero-content text-center">
-                    <div class="max-w-md">
+            <div className="hero min-h-screen">
+                <div className="hero-content text-center">
+                    <div className="max-w-md">
                         <h1 className='text-5xl font-bold mt-4'>{name}</h1>
-                        <p class="py-6 font-bold">{website}</p>
-                        <p class="py-6">Technology used: <br /><span className='font-bold'>{technology}</span></p>
-                        <p class="py-6">Website Details: <br /><span>{websiteDetail}</span></p>
-                        <a href={liveSite}><button class="btn btn-primary m-2">Live link</button></a>
-                        <a href={clientSide}><button class="btn btn-primary m-2">Client Code link</button></a>
+                        <p className="py-6 font-bold">{website}</p>
+                        <p className="py-6">Technology used: <br /><span className='font-bold'>{technology}</span></p>
+                        <p className="py-6">Website Details: <br /><span className='font-bold'>{websiteDetail}</span></p>
+                        <a href={liveSite}><button className="btn btn-primary m-2">Live link</button></a>
+                        <a href={clientSide}><button className="btn btn-primary m-2">Client Code link</button></a>
                         {
-                            serverSite && <a href={clientSide}><button class="btn btn-primary m-2">Client Code link</button></a>
+                            serverSite && <a href={clientSide}><button className="btn btn-primary m-2">Client Code link</button></a>
                         }
+                        <Link to="/"><button className="btn btn-primary m-2">Go to home Page</button></Link>
                     </div>
                 </div>
             </div>
