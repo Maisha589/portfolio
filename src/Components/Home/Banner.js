@@ -24,7 +24,7 @@ const Banner = () => {
                 </div>
 
                 <div>
-                    <img alt='' src="https://i.ibb.co/Ctrv9Mc/454-removebg-preview.png" className="max-w-sm rounded-lg shadow-2xl" />
+                    <img style={{ width: "100%" }} alt='' src="https://i.ibb.co/Ctrv9Mc/454-removebg-preview.png" className="max-w-sm rounded-lg shadow-2xl" />
                 </div>
 
 

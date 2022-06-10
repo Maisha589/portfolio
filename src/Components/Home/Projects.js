@@ -5,40 +5,48 @@ import perfume from "../Projects/warehouse.png";
 import guide from "../Projects/Fun guide.png";
 import commerce from "../Projects/e-commerce.png";
 import planner from "../Projects/event planner.png";
+import proCover from "../Projects/projects(1).png";
 
 const Projects = () => {
     return (
-        <div>
-            <h2 className='font-bold text-3xl text-primary m-5'>Some of my projects</h2>
-            <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
-                <div>
-                    <img src={tools} alt="" />
-                    <button className='btn btn-primary'>Live site</button>
+        <div className="grid lg:grid-cols-2 sm:grid-cols-1">
+            <div className='p-2 lg:hidden sm:block'>
+                <img src={proCover} alt="" />
+            </div>
+            <div>
+                <div className='grid lg:grid-cols-2 sm:grid-cols-1 p-5'>
+                    <div>
+                        <img src={tools} alt="" />
+                        <button className='btn btn-primary'>Details</button>
+                    </div>
+                    <div>
+                        <img src={planner} alt="" />
+                        <button className='btn btn-primary'>Details</button>
+                    </div>
                 </div>
-                <div>
-                    <img src={planner} alt="" />
-                    <button className='btn btn-primary'>Live site</button>
+                <div className='grid lg:grid-cols-2 sm:grid-cols-1 p-5'>
+                    <div>
+                        <img src={perfume} alt="" />
+                        <button className='btn btn-primary'>Details</button>
+                    </div>
+                    <div>
+                        <img src={clinic} alt="" />
+                        <button className='btn btn-primary'>Details</button>
+                    </div>
+                </div>
+                <div className='grid lg:grid-cols-2 sm:grid-cols-1 p-5'>
+                    <div>
+                        <img src={guide} alt="" />
+                        <button className='btn btn-primary'>Details</button>
+                    </div>
+                    <div>
+                        <img src={commerce} alt="" />
+                        <button className='btn btn-primary'>Details</button>
+                    </div>
                 </div>
             </div>
-            <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
-                <div>
-                    <img src={perfume} alt="" />
-                    <button className='btn btn-primary'>Live site</button>
-                </div>
-                <div>
-                    <img src={clinic} alt="" />
-                    <button className='btn btn-primary'>Live site</button>
-                </div>
-            </div>
-            <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
-                <div>
-                    <img src={guide} alt="" />
-                    <button className='btn btn-primary'>Live site</button>
-                </div>
-                <div>
-                    <img src={commerce} alt="" />
-                    <button className='btn btn-primary'>Live site</button>
-                </div>
+            <div className='p-2 lg:block sm:hidden'>
+                <img src={proCover} alt="" />
             </div>
         </div>
     );

@@ -31,7 +31,7 @@ const ContactMe = () => {
                 <div>
                     <h1 className="text-5xl font-bold text-primary">Send Email</h1>
                     <form onSubmit={sendEmail}>
-                        <input type="text" placeholder="Your name" className="input input-bordered input-primary m-3 w-full max-w-xs" name='name' /><br />
+                        <input type="text" placeholder="Your name" className="input input-bordered input-primary mt-3 mb-3 w-full max-w-xs" name='name' /><br />
                         <input type="email" placeholder="your email" className="input input-bordered input-primary mb-3 w-full max-w-xs" name='email' /><br />
                         <input type="text" placeholder="subject" className="input input-bordered input-primary mb-3 w-full max-w-xs" name='subject' /><br />
                         <input type="text" placeholder="message" className="input input-bordered input-primary mb-3 w-full max-w-xs" name='message' /><br />
