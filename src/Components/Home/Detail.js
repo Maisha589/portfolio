@@ -31,9 +31,11 @@ const Detail = ({ detail }) => {
                     <img src={img1} alt="" />
                 </div>
                 <div className='p-3 mb-10'>
-                    <div className='border border-3 p-3 mb-5'>
-                        <img src={img2} alt="" /> <br />
-                    </div>
+                    {
+                        img2 && <div className='border border-3 p-3 mb-5'>
+                            <img src={img2} alt="" /> <br />
+                        </div>
+                    }
                     <div className='border border-3 p-3'>
                         <img src={img3} alt="" />
                     </div>

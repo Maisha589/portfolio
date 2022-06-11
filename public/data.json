@@ -24,7 +24,7 @@
     {
         "id": 3,
         "name": "Tourist Guide",
-        "cover": "https://i.ibb.co/M1LjQ8d/tourist-guide-full-2.png",
+        "cover": "https://i.ibb.co/kxkL8dQ/tourist-guide-full-4.png",
         "imgDetail": "Single service Provider website",
         "technology": "React, Bootstrap, React-Bootstrap, Firebase.",
         "websiteDetail": "It is a Tourist guide service means single service provider website. User need to login first for book any service. For booking user have to provide their detail information along with date of booking.",
@@ -46,7 +46,7 @@
     {
         "id": 5,
         "name": "Dream Wedding",
-        "cover": "https://i.ibb.co/WyrFKtj/dream-event-full-2.png",
+        "cover": "https://i.ibb.co/v3995gM/dream-event-full-4.png",
         "imgDetail": "Event planner website",
         "technology": "HTML,Bootstrap",
         "websiteDetail": "It is a simple wedding planner website. The main focus of this website is its beautiful UI.",
